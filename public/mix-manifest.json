@@ -1,4 +1,6 @@
 {
+  "/js/bootstrap.js": "/js/bootstrap.js",
   "/js/app.js": "/js/app.js",
+  "/css/welcome.css": "/css/welcome.css",
   "/css/app.css": "/css/app.css"
 }

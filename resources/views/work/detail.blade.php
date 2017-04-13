@@ -21,9 +21,14 @@
                             <td>{{ $work->necessary }}人</td>
                         </tr>
                     </table>
-                    <div class="panel-body">
+                    <div class="panel-body" style="word-wrap: break-word;">
                         {!! $work->body !!}
-                        <input type="button" name="submit" value="応募する">
+                        <br />
+                        @if (Auth::user()->id === $work->user_id)
+                            <a href="#" class="button fade-color">編集する</a>
+                        @else
+                            <a href="/mypage" class="button fade-color">応募する</a>
+                        @endif
                     </div>
                 </div>
             </div>

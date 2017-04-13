@@ -7,9 +7,15 @@ use App\Work;
 
 class WorksController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function index()
     {
-        $works = Work::paginate(5);
+        $works = Work::latest()->paginate(5);
         return view('work.index', compact('works'));
     }
 

@@ -19,4 +19,11 @@ Route::get('/', function() {
 Route::get('/home', 'WorksController@index');
 Route::get('/works/{work}', 'WorksController@show');
 
+Route::get('/register-work', 'CompanyController@index');
+Route::post('/commit-work', 'CompanyController@create');
+
 Route::get('/mypage', 'UsersController@index');
+
+Route::get('sample', function() {
+    dd(Auth::user()->id);
+});

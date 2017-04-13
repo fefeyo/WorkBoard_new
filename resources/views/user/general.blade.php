@@ -15,11 +15,17 @@
                             </tr>
                             <tr>
                                 <td>今までに受けた案件の数</td>
-                                <td>profileテーブル見ましょう</td>
+                                <td>4件</td>
                             </tr>
                             <tr>
                                 <td>現在受けている案件</td>
-                                <td>profileテーブル見ましょう</td>
+                                <td>
+                                    <ul>
+                                        <li>Androidアプリ制作</li>
+                                        <li>ECサイト作成</li>
+                                        <li>iPhoneゲーム作成</li>
+                                    </ul>
+                                </td>
                             </tr>
                         </table>
                     </div>

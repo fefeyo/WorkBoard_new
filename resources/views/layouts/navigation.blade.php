@@ -11,7 +11,7 @@
             </button>
 
             <!-- Branding Image -->
-            <a class="navbar-brand" href="/home">
+            <a class="navbar-brand" href="/mypage">
                 WorkBoard
             </a>
         </div>
